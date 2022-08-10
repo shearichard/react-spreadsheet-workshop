@@ -1,8 +1,10 @@
+import MyAwesomeGrid from './components/myawesomegrid';
 
 function App() {
   return (
     <div>
-        <p>Spreadsheet in React Project</p>
+        <h1>Spreadsheet in React Project</h1>
+        <MyAwesomeGrid />
     </div>
   );
 }
