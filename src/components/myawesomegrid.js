@@ -2,10 +2,18 @@ import React   from 'react'
 import { Grid, Input, Select } from 'react-spreadsheet-grid'
 
 const rows = [
-    { id: 'user1', name: 'John Doe', age: 44, positionId: 'position1' },
+    { id: 'user1', name: 'Jane Lee', age: 22, positionId: 'position1' },
+    { id: 'user2', name: 'John Smith', age: 33, positionId: 'position1' },
+    { id: 'user3', name: 'Ranjit Singh', age: 44, positionId: 'position1' },
+    { id: 'user4', name: 'Annabelle Fuentes', age: 55, positionId: 'position1' },
 ];
 
-const somePositions = [{id: 100, name: 'Bus Driver'} , {id: 100, name: 'Doctor'} , {id: 100, name: 'Tax Inspector'} , {id: 100, name: 'House Painter'}];
+const somePositions = [
+    {id: 'position1', name: 'Bus Driver'} , 
+    {id: 'position2', name: 'Doctor'} , 
+    {id: 'position3', name: 'Tax Inspector'} , 
+    {id: 'position4', name: 'House Painter'}
+];
 
 const MyAwesomeGrid = () => {
   return (
