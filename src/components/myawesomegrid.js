@@ -71,7 +71,9 @@ const MyAwesomeGrid = () => {
       columns={columns}
       rows={rows}
       getRowKey={row => row.id}
-      focusOnSingleClick={false}
+      focusOnSingleClick={true}
+      isColumnsResizable={true}
+      isScrollable={false}
     />
   )
 }
