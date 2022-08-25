@@ -27,7 +27,6 @@ const MyAwesomeGrid = () => {
                 <Input
                   value={row.age}
                   focus={focus}
-                  onChange={onFieldChange(row.id, 'age')}
                 />
             );
         }
@@ -40,7 +39,6 @@ const MyAwesomeGrid = () => {
                   value={row.positionId}
                   isOpen={focus}
                   items={somePositions}
-                  onChange={onFieldChange(row.id, 'positionId')}
                 />
             );
         }
@@ -53,15 +51,13 @@ const MyAwesomeGrid = () => {
   const [columns, setColumns] = useState(initColumns()) 
   //
   const onFieldChange = (rowId, field) => (value) => {
-    rowData[rowId][field] = value
     console.log("oFC firing START LOGGING")
     console.log(rowId)
     console.log(field)
     console.log(value)
     console.log(rowData)
-    console.log(rows)
-    console.log([].concat(rowData))
     console.log("oFC firing FINISH LOGGING")
+    rowData[rowId][field] = value
     setRows([].concat(rowData))
   }
   //

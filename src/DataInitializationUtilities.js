@@ -7,10 +7,10 @@ const somePositions = [
     {id: 'position4', name: 'House Painter'}
 ];
 const rowData = [
-    { id: 'user1', name: 'Jane Lee', age: 22, positionId: 'position1' },
-    { id: 'user2', name: 'John Smith', age: 33, positionId: 'position1' },
-    { id: 'user3', name: 'Ranjit Singh', age: 44, positionId: 'position1' },
-    { id: 'user4', name: 'Annabelle Fuentes', age: 55, positionId: 'position1' },
+    { id: 0, name: 'Jane Lee', age: 22, positionId: 'position1' },
+    { id: 1, name: 'John Smith', age: 33, positionId: 'position1' },
+    { id: 2, name: 'Ranjit Singh', age: 44, positionId: 'position1' },
+    { id: 3, name: 'Annabelle Fuentes', age: 55, positionId: 'position1' },
 ];
 
 /*
