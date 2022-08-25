@@ -1,4 +1,4 @@
-import { Input, Select } from 'react-spreadsheet-grid'
+//import { Input, Select } from 'react-spreadsheet-grid'
 
 const somePositions = [
     {id: 'position1', name: 'Bus Driver'} , 
@@ -13,7 +13,7 @@ const rowData = [
     { id: 'user4', name: 'Annabelle Fuentes', age: 55, positionId: 'position1' },
 ];
 
-
+/*
 const initColumns = () => {
     return [
     {
@@ -23,6 +23,7 @@ const initColumns = () => {
               <Input
                 value={row.name}
                 focus={focus}
+                onChange={onFieldChange(row.id, 'firstName')}
               />
           );
       }
@@ -52,4 +53,6 @@ const initColumns = () => {
     }
   ]
 }
-export { initColumns, rowData } 
+*/
+//export { initColumns, rowData } 
+export { rowData, somePositions } 
