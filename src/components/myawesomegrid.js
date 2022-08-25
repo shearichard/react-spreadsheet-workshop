@@ -37,7 +37,7 @@ const MyAwesomeGrid = () => {
         value: (row, { focus }) => {
             return (
                 <Select
-                  value={row.positionId}
+                  selectedId={row.positionId}
                   isOpen={focus}
                   items={somePositions}
                   onChange={onFieldChange(row.id, 'positionId')}
