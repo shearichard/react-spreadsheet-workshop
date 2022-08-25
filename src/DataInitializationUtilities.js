@@ -8,8 +8,8 @@ const somePositions = [
 ];
 const rowData = [
     { id: 0, name: 'Jane Lee', age: 22, positionId: 'position1' },
-    { id: 1, name: 'John Smith', age: 33, positionId: 'position1' },
-    { id: 2, name: 'Ranjit Singh', age: 44, positionId: 'position1' },
+    { id: 1, name: 'John Smith', age: 33, positionId: 'position2' },
+    { id: 2, name: 'Ranjit Singh', age: 44, positionId: 'position4' },
     { id: 3, name: 'Annabelle Fuentes', age: 55, positionId: 'position1' },
 ];
 
