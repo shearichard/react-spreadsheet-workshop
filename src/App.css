@@ -1,3 +1,12 @@
+body {
+    margin: 3em;
+    color: #1514a0;
+    background-color:#DDDDF1
+}
+details {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .App {
   text-align: center;
 }
